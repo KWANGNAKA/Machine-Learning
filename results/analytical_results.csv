@@ -1,0 +1,7 @@
+﻿target,model,g_bar(x),a_bar,b_bar,bias,variance,expected_out_error,method_note
+sin_pi_x,constant,0.0000000000,0.0,0.0,0.5,0.25,0.75,closed form from E[f] and Var(f)
+sin_pi_x,linear,0.7759291741 x + 0.0000000000,0.7759291740995762,0.0,0.20671684021764586,1.6762823950450494,1.8829992352626952,"m,d transform expected-value integral for a_D and b_D"
+sin_pi_x,origin,1.4280271748 x,1.4280271748425393,0.0,0.27064353571327715,0.2365759259136242,0.5072194616269013,2D expected-value integral of slope a_D
+x_squared,constant,0.3333333333,0.0,0.3333333333333333,0.0888888888888889,0.04444444444444445,0.13333333333333336,closed form from E[f] and Var(f)
+x_squared,linear,0.0000000000 x + 0.0000000000,0.0,0.0,0.2,0.3333333333333333,0.5333333333333333,"closed form: a_D=x1+x2, b_D=-x1*x2"
+x_squared,origin,0.0000000000 x,0.0,0.0,0.2,0.11492130392101481,0.3149213039210148,2D expected-value integral of slope a_D
